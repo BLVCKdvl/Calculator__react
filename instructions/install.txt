@@ -1,7 +1,7 @@
 to install libraries type in console:
 npm create vite@latest my-app -- --template react
 npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+npm install react-router
 
 to run the project type in console:
 cd calculator
