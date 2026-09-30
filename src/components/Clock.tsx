@@ -16,7 +16,7 @@ function Clock() {
   const formattedTime = time.toLocaleTimeString();
 
   return (
-    <div className="px-4 py-2 backdrop-blur font-light text-6xl tracking-widest text-slate-100">
+    <div className="px-4 py-2 backdrop-blur font-light text-4xl tracking-widest text-slate-100">
       {formattedTime}
     </div>
   );
