@@ -1,9 +1,11 @@
+import Clock from "../Clock";
+
 function Home() {
   return (
     <section className="bg-slate-900 w-dvw flex flex-col justify-center items-center">
-      <div className="px-6 py-2">
+      <div className="px-6 py-2 flex flex-col items-center">
         <h1 className="text-4xl text-slate-100 font-light">Welcome!</h1>
-        <p className="text-2xl text-slate-100 font-light">To main page</p>
+        <Clock />
       </div>
     </section>
   );
