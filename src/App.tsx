@@ -3,6 +3,7 @@ import Counter from "./components/Pages/Counter.tsx";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Pages/Home.tsx";
+import Calculator from "./components/Pages/Calculator.tsx";
 import UserProfile from "./components/Pages/UserProfile.tsx";
 
 import { Routes, Route } from "react-router";
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/counter" element={<Counter />} />
+          <Route path="/calculator" element={<Calculator />} />
 
           <Route
             path="/profile"

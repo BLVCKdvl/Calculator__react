@@ -21,6 +21,14 @@ function Header() {
               Counter
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/calculator"
+              className="text-xl text-slate-100 font-light"
+            >
+              Calculator
+            </NavLink>
+          </li>
         </ul>
         <div className="border p-2 rounded-xl border-teal-400 bg-slate-800 text-teal-400 shadow-inner">
           <NavLink to="/profile" className="text-xl font-light">
