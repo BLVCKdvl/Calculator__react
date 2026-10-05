@@ -8,7 +8,9 @@ function Header() {
     <header className="bg-slate-700">
       <div className="w-4/5 mx-auto py-2 px-6 flex items-center justify-between">
         <NavLink to="/">
-          <h1 className="text-2xl text-slate-100 font-light">Calculator</h1>
+          <h1 className="text-2xl text-slate-100 font-light">
+            Multi Calculator
+          </h1>
         </NavLink>
         <ul className="flex flex-row gap-6">
           <li>
