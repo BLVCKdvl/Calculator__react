@@ -1,14 +1,14 @@
-import "./App.css";
-import Counter from "./components/Pages/Counter.tsx";
-import Header from "./components/Header/Header";
-import Footer from "./components/Footer/Footer";
-import Home from "./components/Pages/Home.tsx";
-import Calculator from "./components/Pages/Calculator.tsx";
-import Shop from "./components/Pages/Shop.tsx";
-import UserProfile from "./components/Pages/UserProfile.tsx";
+import "@/app/styles/App.css";
+import Counter from "../pages/Counter.tsx";
+import Header from "../widgets/header/ui/Header.tsx";
+import Footer from "../widgets/footer/ui/Footer.tsx";
+import Home from "../pages/home/ui/Home.tsx";
+import Calculator from "../pages/Calculator.tsx";
+import Shop from "../pages/shop/ui/Shop.tsx";
+import UserProfile from "../pages/UserProfile.tsx";
 
 import { Routes, Route } from "react-router";
-import { ProtectedRoute } from "./components/ProtectedRoute.tsx";
+import { ProtectedRoute } from "../components/ProtectedRoute.tsx";
 
 function App() {
   return (

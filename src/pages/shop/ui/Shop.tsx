@@ -1,9 +1,9 @@
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "../../../context/AuthContext";
 import {
   stationeryProducts,
   weaponProducts,
   type Product,
-} from "../../data/ShopProducts";
+} from "../../../data/ShopProducts";
 
 function Shop() {
   const { user } = useAuth();

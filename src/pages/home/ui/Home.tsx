@@ -1,4 +1,4 @@
-import Clock from "../Clock";
+import Clock from "../../../components/Clock";
 
 function Home() {
   return (
