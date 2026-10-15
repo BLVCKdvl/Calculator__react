@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
 
-function Footer() {
+export function Footer() {
   return (
     <footer className="bg-zinc-800">
       <div className="w-4/5 mx-auto py-2 px-6">
@@ -13,5 +13,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

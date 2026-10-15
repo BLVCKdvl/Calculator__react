@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
-import { useAuth } from "../../context/AuthContext";
+import { useAuth } from "@/entities/user/model/AuthContext";
 
-function AuthForm() {
+export function AuthForm() {
   const { login } = useAuth();
   const navigate = useNavigate();
 
@@ -71,5 +71,3 @@ function AuthForm() {
     </div>
   );
 }
-
-export default AuthForm;

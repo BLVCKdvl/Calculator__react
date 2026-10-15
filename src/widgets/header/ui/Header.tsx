@@ -1,7 +1,7 @@
 import { NavLink } from "react-router";
-import { useAuth } from "../../../context/AuthContext";
+import { useAuth } from "../../../entities/user/model/AuthContext";
 
-function Header() {
+export function Header() {
   const { user } = useAuth();
 
   return (
@@ -45,4 +45,4 @@ function Header() {
   );
 }
 
-export default Header;
+//export default Header;

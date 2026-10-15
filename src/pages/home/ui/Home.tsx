@@ -1,4 +1,4 @@
-import Clock from "../../../components/Clock";
+import { Clock } from "@/shared/ui/clock";
 
 function Home() {
   return (

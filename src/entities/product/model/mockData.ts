@@ -1,10 +1,4 @@
-export interface Product {
-  id: number;
-  name: string;
-  price: string;
-  image: string;
-  description: string;
-}
+import { type Product } from "../lib/types";
 
 export const stationeryProducts: Product[] = [
   {

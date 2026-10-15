@@ -1,9 +1,9 @@
-import { useAuth } from "../../../context/AuthContext";
+import { useAuth } from "@/entities/user/model/AuthContext";
 import {
   stationeryProducts,
   weaponProducts,
   type Product,
-} from "../../../data/ShopProducts";
+} from "@/entities/product";
 
 function Shop() {
   const { user } = useAuth();
